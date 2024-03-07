@@ -28,6 +28,7 @@ public class User {
     private String firstName;
     private String middleName;
     private String lastName;
+    private String gender;
     private String dateOfBirth;
     private String companyName;
     private String jobTitle;
@@ -41,5 +42,5 @@ public class User {
     private String createdBy;
     private Timestamp creationDate;
     private String updatedBy;
-    private String updationDate;
+    private Timestamp updationDate;
 }
